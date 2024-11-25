@@ -1,0 +1,7 @@
+{
+  "scripts": {
+    "compile": "javac -d ./out src/io/github/adamraichu/bf2unhasher/*.java",
+    "from_file": "java -cp ./out io.github.adamraichu.bf2unhasher.TestHashesFromFile",
+    "generate_hashes": "java -cp ./out io.github.adamraichu.bf2unhasher.GetUnknownHashesFromDump"
+  }
+}
